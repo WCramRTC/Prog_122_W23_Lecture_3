@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Intrinsics.X86;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -36,9 +37,18 @@ namespace Prog_122_W23_Lecture_3
         // - WHAT TAG DO YOU NAME?
 
         // Layouts
+
         // Canvas
+        //        What positioning does it use?
         // Grid
-        // Stack
-        // Nesting Layous
+        //        What positioning does grid use?
+        //        How do you Define rows and columns?
+        //        How do you position a control?
+        // StackPanel
+        //        How do you organize controls in a stack panel?
+        //        What are the two orientations of stack panel?
+        // Nesting Layouts
+
+
     }
 }
