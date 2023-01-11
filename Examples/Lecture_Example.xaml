@@ -1,0 +1,29 @@
+﻿<Window x:Class="Prog_122_W23_Lecture_3.Lecture_Example"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Prog_122_W23_Lecture_3"
+        mc:Ignorable="d"
+        Title="Lecture_Example" Height="450" Width="800">
+    <Grid>
+        <RichTextBox Margin="346,35,76,35">
+            <FlowDocument>
+                <Paragraph>
+                    <Run x:Name="rtbDisplay"  Text="RichTextBox"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Label Content="First Name" HorizontalAlignment="Left" Margin="60,49,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtFName" HorizontalAlignment="Left" Margin="60,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnClear" Content="Clear Rich Text Box" HorizontalAlignment="Left" Margin="60,327,0,0" VerticalAlignment="Top" Height="71" Width="259" Click="btnClear_Click"/>
+        <Label Content="Last Name" HorizontalAlignment="Left" Margin="60,110,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtLName" HorizontalAlignment="Left" Margin="60,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnFName" Content="Append First Name" HorizontalAlignment="Left" Margin="198,79,0,0" VerticalAlignment="Top" Click="btnFName_Click"/>
+        <Button x:Name="btnLastName" Content="Append Last Name" HorizontalAlignment="Left" Margin="198,140,0,0" VerticalAlignment="Top" Click="btnLastName_Click"/>
+        <Button x:Name="btnAddFields" Content="Append First and Last Name" HorizontalAlignment="Left" Margin="60,185,0,0" VerticalAlignment="Top" Height="32" Width="259" Click="btnAddFields_Click"/>
+        <Button x:Name="btnDisplayFLName" Content="Display First and Last Name" HorizontalAlignment="Left" Margin="60,236,0,0" VerticalAlignment="Top" Height="32" Width="259" Click="btnDisplayFLName_Click"/>
+        <Button x:Name="btnNewLine" Content="New Line" HorizontalAlignment="Left" Margin="60,280,0,0" VerticalAlignment="Top" Height="32" Width="259" Click="btnNewLine_Click" />
+
+    </Grid>
+</Window>
