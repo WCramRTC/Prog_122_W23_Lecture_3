@@ -24,7 +24,65 @@ namespace Prog_122_W23_Lecture_3
         public MainWindow()
         {
             InitializeComponent();
+            
         }
+        private void btnAddText_Click(object sender, RoutedEventArgs e)
+        {
+            // I need to grab the value from the text box
+            string word = txtWord.Text;
+
+            // I want to append to the text
+            rtbDisplay.Text += word;
+        }
+
+        private void btnChangeText_Click(object sender, RoutedEventArgs e)
+        {
+            string word = txtWord.Text;
+
+            rtbDisplay.Text = word;
+        }
+
+        private void btnCountToTen_Click(object sender, RoutedEventArgs e)
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                rtbDisplay.Text += i.ToString();
+            }
+        }
+
+        private void btnCountToUsersNumber_Click(object sender, RoutedEventArgs e)
+        {
+            // I want to display from 0 to users number
+            // Step 1 - Grab the text
+            string userNumber = txtWord.Text;
+
+            // Step 2 - Turn it into a number
+            int number = int.Parse(userNumber);
+
+            // Step 3
+            for (int i = 0; i < number; i++)
+            {
+                // Step 4 - Display to rtb
+                rtbDisplay.Text += i + "\n";
+            }
+        }
+
+        private void btnClear_Click(object sender, RoutedEventArgs e)
+        {
+            string name = "";
+
+            rtbDisplay.Text = name;
+        }
+
+        private void btnRtbToText_Click(object sender, RoutedEventArgs e)
+        {
+            string word = rtbDisplay.Text;
+
+            txtWord.Text = word;
+        }
+
+
+
 
 
         // Todays Discussions

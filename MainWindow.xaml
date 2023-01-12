@@ -6,5 +6,27 @@
         xmlns:local="clr-namespace:Prog_122_W23_Lecture_3"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid/>
+    <Grid Background="#FFCECECE">
+
+        <RichTextBox Margin="369,40,89,77">
+            <FlowDocument>
+                <Paragraph>
+                    <Run x:Name="rtbDisplay" Text="RichTextBox"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <TextBox x:Name="txtWord" HorizontalAlignment="Left" Margin="54,66,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+
+        <Button x:Name="btnAddText" Content="Append Text" HorizontalAlignment="Left" Margin="54,108,0,0" VerticalAlignment="Top" Height="22" Width="212" Click="btnAddText_Click"/>
+
+        <Button x:Name="btnChangeText" Content="Change Text" HorizontalAlignment="Left" Margin="54,148,0,0" VerticalAlignment="Top" Height="22" Width="212" Click="btnChangeText_Click" />
+        <Button x:Name="btnCountToTen" Content="Count To Ten" HorizontalAlignment="Left" Margin="54,184,0,0" VerticalAlignment="Top" Height="33" Width="212" Click="btnCountToTen_Click"/>
+
+        <Button x:Name="btnCountToUsersNumber" Content="Count To Users Number" HorizontalAlignment="Left" Margin="54,240,0,0" VerticalAlignment="Top" Height="33" Width="212" Click="btnCountToUsersNumber_Click" />
+        <Button x:Name="btnClear" Content="Clear" HorizontalAlignment="Left" Margin="54,301,0,0" VerticalAlignment="Top" Height="26" Width="205" Click="btnClear_Click"/>
+        
+        <Button x:Name="btnRtbToText" Content="Rtb To TextBox" HorizontalAlignment="Left" Margin="54,339,0,0" VerticalAlignment="Top" Height="26" Width="205" 
+                Click="btnRtbToText_Click"/>
+
+    </Grid>
 </Window>
