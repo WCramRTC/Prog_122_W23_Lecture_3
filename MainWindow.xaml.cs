@@ -81,6 +81,13 @@ namespace Prog_122_W23_Lecture_3
             txtWord.Text = word;
         }
 
+        private void btnLayoutExample_Click(object sender, RoutedEventArgs e)
+        {
+            Layout_InClass layout = new Layout_InClass();
+            layout.Show();
+            
+        }
+
 
 
 

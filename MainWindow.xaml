@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:Prog_122_W23_Lecture_3"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    
     <Grid Background="#FFCECECE">
 
         <RichTextBox Margin="369,40,89,77">
@@ -27,6 +28,7 @@
         
         <Button x:Name="btnRtbToText" Content="Rtb To TextBox" HorizontalAlignment="Left" Margin="54,339,0,0" VerticalAlignment="Top" Height="26" Width="205" 
                 Click="btnRtbToText_Click"/>
+        <Button x:Name="btnLayoutExample" Content="Open Layout Example" HorizontalAlignment="Left" Margin="491,384,0,0" VerticalAlignment="Top" Height="24" Width="174" Click="btnLayoutExample_Click"/>
 
     </Grid>
 </Window>

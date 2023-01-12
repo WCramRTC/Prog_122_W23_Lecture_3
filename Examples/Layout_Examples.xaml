@@ -14,7 +14,7 @@
         </Grid.ColumnDefinitions>
         <Canvas Grid.Column="0" Background="#FFFFBFBF">
             <Label Content="Label" Canvas.Left="49" Canvas.Top="55"/>
-            <TextBox Canvas.Left="90" TextWrapping="Wrap" Text="TextBox" Canvas.Top="115" Width="120"/>
+            <TextBox Canvas.Left="68" TextWrapping="Wrap" Text="TextBox" Canvas.Top="86" Width="120"/>
             <Label Content="Canvas" Canvas.Left="90" Canvas.Top="19" FontFamily="Arial Black" FontSize="18"/>
 
         </Canvas>

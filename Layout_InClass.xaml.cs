@@ -15,16 +15,13 @@ using System.Windows.Shapes;
 namespace Prog_122_W23_Lecture_3
 {
     /// <summary>
-    /// Interaction logic for Layout_Examples.xaml
+    /// Interaction logic for Layout_InClass.xaml
     /// </summary>
-    public partial class Layout_Examples : Window
+    public partial class Layout_InClass : Window
     {
-        public Layout_Examples()
+        public Layout_InClass()
         {
             InitializeComponent();
         }
-
-        // What type of positioning does canvas use?
-        // 
     }
 }
